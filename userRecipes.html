@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Jungle Cook</title>
+  </head>
+  <body>
+    <div class="nav-container">
+      <nav>
+        <div class="logo">
+          <img src="/images/logo.svg" alt="" />
+        </div>
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="browse.html">Browse</a>
+          <a href="create.html">Create Recipes</a>
+          <a href="userRecipes.html">Your Recipes</a>
+          <a class="log-button" href="log.html">Login</a>
+        </div>
+      </nav>
+    </div>
+
+    <div id="app">
+      <div class="browse-container">
+        <div class="gallery-container">
+          <h1 class="gallery-title">Hey (Name), here are your recipes!</h1>
+          <div class="gallery-view">
+            <div class="recipe-entry">
+              <div class="recipe-card">
+                <div class="recipe-img" id="pizza">
+                  <a href="viewRecipe.html" class="button view">View</a>
+                </div>
+                <div class="recipe-info">
+                  <div class="recipe-name">Supreme Pizza</div>
+                  <div class="recipe-desc">
+                    Make pizza night super duper out of this world with homemade
+                    pizza. This recipe is supreme with vegetables and two types
+                    of meat. Yum!
+                  </div>
+                  <div class="recipe-details">
+                    <div class="time-serving">
+                      <img src="images/time.svg" alt="" />
+                      <div class="hrs-min">1Hr 24min</div>
+                    </div>
+                    <div class="time-serving">
+                      <img src="images/servings.svg" alt="" />
+                      <div class="total-serve">4 servings</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="button-container">
+                <a href="editRecipe.html" class="button">Edit Recipe</a>
+                <div class="button">Delete</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      <div class="copyright">Copyright © 2019 The Jungle Cook</div>
+      <div class="footer-links">
+        <a href="#">Login</a><a href="#">Recipes by Categories</a
+        ><a href="#">Privacy and Copyright</a><a href="#">Create Recipe</a
+        ><a href="#">Your Recipes</a>
+      </div>
+      <div class="socials">
+        <img src="/images/facebook.svg" alt="" />
+        <img src="/images/instagram.svg" alt="" />
+      </div>
+    </div>
+
+    <script src="lib/jquery-3.6.4.min.js"></script>
+    <script src="model/model.js"></script>
+    <script src="app/app.js"></script>
+  </body>
+</html>
